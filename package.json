@@ -1,13 +1,28 @@
 {
-  "name": "chat-example",
-  "version": "0.0.0",
+  "name": "@amazinggracec/req-header-parser",
+  "version": "1.0.0",
   "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
   "main": "server.js",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amazinggracec/req-header-parser.git"
+  },
   "author": "Mostafa Eweda <mo.eweda@gmail.com>",
   "dependencies": {
+    "accepts": "^1.3.1",
     "async": "~0.2.8",
-    "express": "~3.2.4",
-    "socket.io": "~0.9.14"
-  }
+    "express": "^3.2.6",
+    "proxy-addr": "^1.0.10",
+    "socket.io": "~0.9.14",
+    "useragent": "^2.1.8"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amazinggracec/req-header-parser/issues"
+  },
+  "homepage": "https://github.com/amazinggracec/req-header-parser#readme"
 }
